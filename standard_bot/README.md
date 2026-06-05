@@ -1,1 +1,3 @@
 In Progress...
+
+Kevin just add Standard Bot sample code and install instructions to this directory.
