@@ -26,10 +26,16 @@ my_robot.set_speed(100)
          make sure you double check your robot ip
 """
 # Open Gripper
-my_robot.gripper('open')
+my_robot.schunk_gripper('open')
 sleep(2)
 # Close Gripper
-my_robot.gripper('close')
+my_robot.schunk_gripper('close')
+sleep(2)
+# Open Gripper
+my_robot.schunk_gripper('open')
+sleep(2)
+# Close Gripper
+my_robot.schunk_gripper('close')
 sleep(2)
 
 
