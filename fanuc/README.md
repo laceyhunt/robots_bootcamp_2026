@@ -88,9 +88,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-TBD
-
-_For more examples, please refer to the [Documentation](https://uofi-cdacs.github.io/FANUC-Ethernet_IP_Drivers/documentation/html/)_
+_For usage examples, please refer to the examples/ folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +111,7 @@ Distributed under the GNU General Public License v3. See `LICENSE.txt` for more 
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/UniversityOfIdahoCDACS/FANUC-Ethernet_IP_Drivers](https://github.com/UniversityOfIdahoCDACS/FANUC-Ethernet_IP_Drivers)
+Original Project Link: [https://github.com/UniversityOfIdahoCDACS/FANUC-Ethernet_IP_Drivers](https://github.com/UniversityOfIdahoCDACS/FANUC-Ethernet_IP_Drivers)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
