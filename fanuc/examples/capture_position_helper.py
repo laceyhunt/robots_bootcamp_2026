@@ -15,7 +15,7 @@ def write_to_file(file_path, text):
 
 current_directory = os.getcwd()
 
-file_path = os.path.join(current_directory, 'positionLog.txt')
+file_path = os.path.join(current_directory, 'position_log.txt')
 pose_num = 1
 
 while True:
@@ -23,7 +23,7 @@ while True:
 
     if choice == "1":
         # Code to capture position goes here
-        text = "pose " + str(pose_num) + ": " + my_robot.read_current_joint_position()
+        text = "pose " + str(pose_num) + ": " + str(my_robot.read_current_joint_position())
         write_to_file(file_path, text)
         print("Position captured!")
         pose_num += 1
