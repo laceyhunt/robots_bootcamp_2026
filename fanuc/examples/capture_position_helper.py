@@ -4,11 +4,10 @@ sys.path.append('../src')
 from robot_controller import robot
 
 # Global Constants
-#drive_path = '129.101.98.214' # Bill
-drive_path = '129.101.98.215' # DJ
-#drive_path = '129.101.98.244' # Larry
+robot_ip = '10.1.1.30'      # DJ (Uses Schunk Gripper)
+# robot_ip = '10.1.1.31'      # Bill (uses OnRobot gripper)
 
-crx10 =robot(drive_path)
+my_robot = robot(robot_ip)
 
 def write_to_file(file_path, text):
     with open(file_path, 'a') as file:
@@ -24,7 +23,7 @@ while True:
 
     if choice == "1":
         # Code to capture position goes here
-        text = "pose " + str(pose_num) + ": " + crx10.read_current_joint_position()
+        text = "pose " + str(pose_num) + ": " + my_robot.read_current_joint_position()
         write_to_file(file_path, text)
         print("Position captured!")
         pose_num += 1
