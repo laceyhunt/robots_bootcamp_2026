@@ -1,0 +1,6 @@
+# Standard Bots lab dependencies.
+# Install with:  pip install -r requirements.txt
+
+standardbots==2.20250128.54
+opencv-python
+numpy
