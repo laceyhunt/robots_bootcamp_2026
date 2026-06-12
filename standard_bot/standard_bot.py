@@ -2,6 +2,15 @@ from standardbots import StandardBotsRobot, models
 import positions
 import time
 
+# how to find the API token
+# 1. Hit “Connect” button.
+# 2. Type “0000” (4 zero’s).
+# 3. Click on robot name (bottom lefthand corner).
+# 4. Click “Settings”.
+# 5. Click “Configure Developer API”.
+# 6. Ensure “Enable Developer API” is turned on.
+# 7. Gather “Authentication Token” value.
+
 # robot connection info
 ROBOT_URL = "http://10.1.1.42:3000"          # Simon
 # ROBOT_URL = "http://10.1.1.41:3000"          # Theodore
