@@ -4,8 +4,8 @@ sys.path.append('../src')
 from robot_controller import robot
 
 # Global Constants
-robot_ip = '10.1.1.30'      # DJ (Uses Schunk Gripper)
-# robot_ip = '10.1.1.31'      # Bill (uses OnRobot gripper)
+robot_ip = 'DJ_IP_HERE'      # DJ (Uses Schunk Gripper)
+# robot_ip = 'BILL_IP_HERE'      # Bill (uses OnRobot gripper)
 
 my_robot = robot(robot_ip)
 
