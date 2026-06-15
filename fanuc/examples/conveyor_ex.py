@@ -10,8 +10,9 @@ sys.path.append('../src')
 from robot_controller import robot
 from time import sleep
 
-# robot_ip = '10.1.1.30'      # DJ, back conveyor (Uses Schunk Gripper)
-robot_ip = '10.1.1.31'      # Bill, front conveyor (uses OnRobot gripper)
+# Global Constants
+robot_ip = 'DJ_IP_HERE'      # DJ (Uses Schunk Gripper)
+# robot_ip = 'BILL_IP_HERE'      # Bill (uses OnRobot gripper)
 
 my_robot = robot(robot_ip)
 
