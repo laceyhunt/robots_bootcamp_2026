@@ -3,10 +3,10 @@ import math, os
 
 # robot connection info
 # uncomment the credentials for the robot you are using 
-ROBOT_URL = "http://10.1.1.42:3000"          # Simon
-# ROBOT_URL = "http://10.1.1.41:3000"          # Theodore
-API_TOKEN = "ya4-t7a8-rr4s-n89uk"            # Simon
-# API_TOKEN = "8geqfqu0-qbbkig-ozwgr4-tl2xfj7" # Theodore
+ROBOT_URL = "http://simon_ip:3000"          # Simon
+# ROBOT_URL = "http://theodore_ip:3000"          # Theodore
+API_TOKEN = "simon_token"            # Simon
+# API_TOKEN = "theodore_token" # Theodore
 
 
 # define name of positions module
